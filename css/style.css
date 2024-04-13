@@ -1,0 +1,271 @@
+/* Estilos Gerais */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+span{
+    color: #0487D9;
+}
+.largura-padrao{
+    max-width: 1440px;
+    margin: 0 auto;
+  
+}
+
+/* Estilo Cabeçalho das Seções */ 
+
+.infoBoasVindas h2, .secao-rota h3, .secao-sobre h2{
+
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 80px 0 30px 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+/* Estilo Topo */ 
+
+.topo{
+    background-color: #fff;  
+    width: 100%;
+    padding: 15px;   
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.topo a{
+    color: #676867;
+    text-decoration: none;
+    font-size: 1,5em;
+}
+.topo h1{
+    font-weight: 500;
+}
+.topo .navegacao a{
+    padding: 0 20px;
+}
+
+/* Estilo Seção Banner */ 
+
+ .banner{
+    padding-top: 100px;
+    background-image: url(/img/img-fundo.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .home{
+    height: 100vh;
+ }
+
+ .quartos{
+    height: 250px;
+    margin-bottom: 40px;
+ }
+ .banner div{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgb(4, 191, 157, 0.8);
+    padding: 50px 50px;
+    text-align: center;
+ }
+ .banner div h1{
+    color: #fff;
+    font-size: 100px;
+ }
+.banner div p{
+    color: #fff;
+    font-size: 40px;
+    margin: 50px 0 0 0;
+}
+
+/* Estilo Seção Informações */
+
+.informacoes .infoCabecalho{
+    color: #676867;
+    text-align: center; 
+    padding: 35px 0 35px 0;
+} 
+
+.infoCabecalho h2 {
+    font-size: 35px;
+    font-weight: 400;
+    padding: 0 0 15px 0;
+}
+
+.infoCabecalho p{
+    line-height: 40px;
+}
+
+.informacoes .container-quartos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+ 
+}
+
+.informacoes .container-quartos div{
+    border-bottom: 3px solid #49997C;
+    padding: 0 0 15px 0;;
+    text-align: center;
+}
+
+
+.informacoes .container-quartos  img{
+    width: 450px; 
+    height: 350px;
+    padding: 15px 0 15px 0;
+}
+
+    
+
+ 
+.informacoes .container-quartos div a{
+    color: #676867;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+/* Estilo Seção Rota */
+
+.secao-rota{
+    text-align: center;
+    color: #676867;
+}
+
+.secao-rota p{
+    padding: 0 0 80px 0;
+}
+
+/* Estilo Seção Sobre */
+
+.secao-sobre{
+    margin: 0 0 100px 0;
+}
+.secao-sobre .container-colunas{  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.coluna {
+     max-width: 600px;
+     padding: 0 40px 0 40px;
+ 
+}
+
+.secao-sobre .cabecalho{
+    color: #030503;
+    text-align: center;
+    padding: 0 0 15px 0;
+}
+
+.secao-sobre img{
+    height: 110px;
+    width: 100px;   
+}
+
+.container-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    width: 900px;
+}
+
+.container-texto h3{
+    padding: 10px 0 10px 0;
+    font-weight: 600;
+}
+.container-card{ 
+    display: flex;
+    align-items: center;
+    margin: 30px 0 30px 0;
+}
+
+  /* Estilo Contato */ 
+
+
+.contato, .rodape{
+    background-color:   #458C72 ;
+    height: 1;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contato a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.container-contato{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+
+}
+
+.container-contato div{
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+ 
+}
+
+.contato h3, .contato a{
+        padding: 0 20px 0 20px;
+}
+
+.rodape{
+    font-weight: bold;
+    border-top: 1px solid rgb(21, 24, 21, 0.2);
+    padding: 20px;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Estilização da Seção Quartos */ 
+.informacoes h3{
+    text-align: center;
+    justify-content: left;
+    padding: 50px 0 10px 0;
+}
+.informacoes-quarto, .listas{
+    display: flex;
+    margin: 35px;
+
+}
+
+.informacoes-quarto div{
+
+    margin: 0 auto;
+    
+}
+
+.listas ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    flex-flow: row wrap;
+ 
+}
+
+ 
+
