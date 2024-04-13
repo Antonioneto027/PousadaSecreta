@@ -59,7 +59,7 @@ span{
 
  .banner{
     padding-top: 100px;
-    background-image: url(../img/img-fundo.jpg);
+    background-image: url(./img/img-fundo.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
